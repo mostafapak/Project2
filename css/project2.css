@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.heading{
+    background-color: rgb(133, 161, 185);
+    width: 100%;
+    height: 100px;
+    position: fixed;
+}
+.img1{
+    width: 50px;
+    border-radius: 48%;
+    margin: 20px 0px 0px 50px;
+}
+.links ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding-left: 100px;
+    transition: 1s;
+}
+.links ul li{
+    list-style-type: none;
+    margin: -50px 0px 0px 20% ;
+    width: 1000px;
+}
+.icon{
+    float: right;
+    margin: -30px 90px 0px 0px;
+}
+.icon i{
+    padding-left: 10px;
+    cursor: pointer;
+
+}
+.links ul li a:hover{
+    background-color:rgb(0, 52, 89);
+    color: aliceblue;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-left: 100px;
+    border: .3px solid black;
+    
+}
+.wooden h1{
+    margin: 100px;
+    padding-top: 100px;
+    font-size: 40px;
+    
+}
+.wooden{
+    background-image: url("../img/Student-Chair-Solo-Picture.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 500px;
+    width: 100%;
+    height: 90vh;
+}
+.wooden a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    background-color: blue;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left:100px;
+}
+.wooden a:hover{
+    color: aliceblue;
+}
